@@ -1,0 +1,31 @@
+{
+  "name": "fengadmin",
+  "version": "1.0.0",
+  "description": "Management system template",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuyongliang/FengAdmin.git"
+  },
+  "keywords": [
+    "fengadmin"
+  ],
+  "author": "liuyongliang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuyongliang/FengAdmin/issues"
+  },
+  "homepage": "https://github.com/liuyongliang/FengAdmin#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.2"
+  }
+}
