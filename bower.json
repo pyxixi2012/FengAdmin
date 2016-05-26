@@ -1,0 +1,27 @@
+{
+  "name": "fengadmin",
+  "description": "Management system template",
+  "main": "index.html",
+  "authors": [
+    "liuyongliang"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "fengadmin"
+  ],
+  "homepage": "https://github.com/liuyongliang/FengAdmin",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^2.2.4"
+  },
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
+}
