@@ -1,9 +1,10 @@
 var gulp = require("gulp"),
     less = require("gulp-less"),
     browserSync = require("browser-sync"),
+    sourcemaps = require('gulp-sourcemaps'),
     path = {
         HTML : "./*.html",
-        LESS : "less/*.less",
+        LESS : "less/feng.less",
         CSS : "css",
         JS : "js/*.js"
     };
