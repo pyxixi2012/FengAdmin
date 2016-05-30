@@ -1,15 +1,163 @@
+.bg-danger {
+  background-color: #ff604f;
+  color: #ffcfca;
+}
+.bg-none {
+  background-color: transparent;
+  box-shadow: none;
+}
+.no-border {
+  border: 0;
+}
 html {
-  min-height: 100%;
+  height: 100%;
   position: relative;
 }
 body {
-  background: #fff;
-  color: red;
+  background: #ebeef1;
+  color: #333;
   font-weight: 400;
   font-size: 13px;
-  min-height: 100%;
+  height: 100%;
   font-family: "Microsoft YaHei", 'Arial,Verdana,SimHei,sans-serif';
 }
+ol,
+ul {
+  padding: 0;
+  list-style: none;
+}
+.page {
+  position: relative;
+  height: 100%;
+}
+.layout {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+}
 header {
-  margin-left: 190px;
+  position: relative;
+  min-height: 50px;
+  margin: 0;
+  z-index: 1000;
+  border-radius: 0;
+  border: 0;
+  background: #fff;
+}
+header .logo {
+  background: #2D82CB;
+  width: 200px;
+  height: 50px;
+  float: left;
+  position: relative;
+}
+header .logo a {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+header .logo .mg-r-sm {
+  margin-right: 10px;
+}
+header .navbar-form .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+header .navbar-form .btn {
+  background-color: transparent;
+  box-shadow: none;
+}
+header .navbar-form .search {
+  box-shadow: none;
+  font-size: 13px;
+}
+header li:hover {
+  background: transparent;
+}
+header li > a > i {
+  color: #333;
+}
+header .navbar-nav {
+  margin: 0;
+}
+header .notifications .badge {
+  position: absolute!important;
+  top: 8px!important;
+  right: 5px;
+}
+header .badge.badge-top {
+  position: relative;
+  top: -10px;
+  padding: 3px 5.5px;
+  margin-left: -10px;
+}
+header .bg-danger {
+  background-color: #ff604f;
+  color: #ffcfca;
+}
+header .avatar {
+  width: 30px;
+  margin-top: -4px;
+  margin-right: 5px;
+}
+header .img-circle {
+  border-radius: 50%;
+}
+.sidebar {
+  position: relative;
+  width: 200px;
+  height: 100%;
+  float: left;
+  background-color: #535a6c;
+  color: #ccd0d8;
+}
+.sidebar a {
+  color: #ccd0d8;
+}
+.main-navigation {
+  top: 0;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+.main-navigation ul > li.active {
+  background: #4d5465;
+}
+.main-navigation ul > li:hover {
+  background: #4d5465;
+}
+.main-navigation ul > li > a {
+  display: block;
+  padding: 16px 15px;
+  text-decoration: none;
+}
+.main-navigation ul > li i {
+  padding-right: 10px;
+  min-width: 25px;
+  text-align: center;
+}
+.sidebar-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 50px;
+}
+.sidebar-footer .footer-toolbar {
+  line-height: 50px;
+  padding: 0 15px;
+  width: 100%;
+}
+.sidebar-footer .toggle-sidebar i {
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
 }

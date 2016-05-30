@@ -1,0 +1,51 @@
+.sidebar {
+    position: relative;
+    width: 200px;
+    height: 100%;
+    float: left;
+    background-color: #535a6c;
+    color: #ccd0d8;
+    a{
+    	color: #ccd0d8;
+    }
+}
+.main-navigation {
+    top: 0;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    ul>li.active{
+		background: #4d5465;
+	}
+	ul>li:hover{
+		background: #4d5465;
+	}
+	ul>li>a {
+	    display: block;
+	    padding: 16px 15px;
+	    text-decoration: none;
+	}
+	ul>li i {
+	    padding-right: 10px;
+	    min-width: 25px;
+	    text-align: center;
+	}
+}
+.sidebar-footer{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 50px;
+    .footer-toolbar{
+    	line-height: 50px;
+	    padding: 0 15px;
+	    width: 100%;
+    }
+    .toggle-sidebar i {
+	    padding: 5px 10px;
+	    background: rgba(0, 0, 0, 0.1);
+	    border-radius: 2px;
+	}
+}
