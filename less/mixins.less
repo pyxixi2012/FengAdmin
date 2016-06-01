@@ -50,6 +50,21 @@
     background-color: #1ec3c8;
     color: #bcedef;
 }
+.text-white, .text-white a {
+    color: #ffffff;
+}
+.text-muted, .text-muted a {
+    color: #b3b3b3;
+}
+.text-default, .text-default a {
+    color: #dde1e7;
+}
+.text-primary, .text-primary a {
+    color: #17c3e5;
+}
+.text-gray, .text-gray a{
+    color:#8e8e8e;
+}
 .no-border{
   	border:0;
 }
@@ -69,13 +84,31 @@
     margin-top: @sm;
 }
 .mg-xs {
-    margin: 5px;
+    margin: @xs;
 }
 .mg-r-xs {
-    margin-right: 5px;
+    margin-right: @xs;
+}
+.mg-t-md {
+    margin-top: @vlg;
+}
+.mg-t-sm {
+    margin-top: @lg;
+}
+.pd{
+    padding:@lg;
 }
 .pd-md {
     padding: @lg;
+}
+.pd-lg{
+    padding:@vlg;
+}
+.pd-b{
+    padding-bottom: @vlg;
+}
+.pd-r-xs {
+    padding-right: @xs;
 }
 .avatar {
     position: relative;
