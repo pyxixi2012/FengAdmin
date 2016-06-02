@@ -4,7 +4,7 @@ var gulp = require("gulp"),
     sourcemaps = require('gulp-sourcemaps'),
     fileinclude  = require('gulp-file-include'),
     path = {
-        HTML : "*.html",
+        HTML : "./*.html",
         INCLUDE : "include/*.html",
         LESSFILE : "less/*.less",
         LESS : "less/feng.less",
@@ -24,6 +24,7 @@ gulp.task("serve", ["less", "lessbootstrap", "js-watch", "images","include", "ht
     gulp.watch(path.JS, ["js-watch"]);
     gulp.watch(path.IMAGES, ["images"]);
     gulp.watch(path.HTML, ["html"]);
+    gulp.watch(path.HTML, ["include"]);
     gulp.watch(path.INCLUDE, ["html"]);
     gulp.watch(path.INCLUDE, ["include"]);
     gulp.watch(path.HTML).on("change", function() {
