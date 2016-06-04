@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>FengAdmin 后台管理系统 - 主页</title>
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!-- bootstarp-3.3.1 -->
+	    <link href="./css/bootstrap.css" rel="stylesheet">
+	    <!-- font Awesome -->
+	    <link href="./css/font-awesome.min.css" rel="stylesheet">
+	    <!-- Theme style -->
+	    <link href="./css/feng.css" rel="stylesheet">
+
+	    <!--[if lt IE 9]>
+	    <script src="js/libs/html5shiv.js"></script>
+	    <script src="js/libs/respond.min.js"></script>
+	    <![endif]-->
+
+	</head>
+
+	<body>
+
+		<div class="page">
+
+			<!-- header -->
+			<header>
+
+	<div class="logo">
+		<a href="index.html">
+			<i class="fa fa-leaf mg-r-sm"></i>
+			<span>FengAdmin</span>
+		</a>
+	</div>
+
+	<form class="navbar-form navbar-left hidden-xs" role="search">
+        <div class="form-group">
+            <button class="btn no-border no-margin bg-none no-pd-l" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+            <input type="text" class="form-control no-border no-padding search" placeholder="搜索">
+        </div>
+    </form>
+
+	<ul class="nav navbar-nav navbar-right off-right">
+
+		<li class="notifications dropdown hidden-xs">
+			<a href="javascript:;" data-toggle="dropdown">
+                <i class="fa fa-bell"></i>
+                <div class="badge badge-top bg-danger animated flash">3</div>
+            </a>
+		</li>
+
+		<li class="quickmenu">
+			<a href="javascript:;" data-toggle="dropdown">
+                <img src="images/avatar.png" class="avatar pull-left img-circle" alt="user" title="user">
+                <i class="caret mg-l-xs hidden-xs no-margin"></i>
+          	</a>
+		</li>
+
+	</ul>
+
+</header>
+			<!-- header end-->
+			
+			<!-- layout -->
+			<div class="layout">
+
+			<!-- sidebar -->
+			<div class="sidebar">
+	<div class="main-navigation">
+		<ul>
+			<li class="active">
+				<a href="index.html">
+                    <i class="fa fa-coffee"></i>
+                    <span>控制台</span>
+            	</a>
+			</li>
+			<li>
+				<a href="echarts.html">
+                    <i class="fa fa-coffee"></i>
+                    <span>Echarts</span>
+            	</a>
+			</li>
+			<li>
+				<a href="buttons.html">
+                    <i class="fa fa-coffee"></i>
+                    <span>按钮</span>
+            	</a>
+			</li>
+            <li>
+                <a href="icons.html">
+                    <i class="fa fa-coffee"></i>
+                    <span>Icons</span>
+                </a>
+            </li>
+            <li>
+                <a href="grid.html">
+                    <i class="fa fa-coffee"></i>
+                    <span>栅格化</span>
+                </a>
+            </li>
+		</ul>
+	</div>
+
+	<div class="sidebar-footer">
+        <div class="footer-toolbar pull-left">
+            <a href="javascript:;" class="pull-left help">
+                <i class="fa fa-question-circle"></i>
+            </a>
+            <a href="javascript:;" class="toggle-sidebar pull-right hidden-xs">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        </div>
+	</div>					
+</div>
+			<!-- sidebar end -->
+
+			<!-- content -->
+			<div class="main-content">
+				<div class="content-wrap">
+					<div class="row mg-b">
+                        <div class="col-xs-12">
+                            <h4 class="no-margin">title</h4>
+                            <small>introduce</small>
+                        </div>
+                    </div>
+                    <!-- page -->
+                    <div class="row">
+                    	<div class="col-lg-6 mg-b-lg">
+                    		<div class="panel">
+                    			<div class="panel-heading">按钮基本样式</div>
+                                <div class="panel-body">
+                                    <div class="demo-button">
+                                        <button class="btn btn-default">默认</button>
+                                        <button type="button" class="btn btn-primary">基本</button>
+                                        <button type="button" class="btn btn-success">完成</button>
+                                        <button type="button" class="btn btn-info">信息</button>
+                                        <button type="button" class="btn btn-warning">警告</button>
+                                        <button type="button" class="btn btn-danger">注意</button>
+                                    </div>
+                                </div>
+                            </div>
+                    	</div>
+                        <div class="col-lg-6 mg-b-lg">
+                            <div class="panel">
+                                <div class="panel-heading">圆形按钮基本样式</div>
+                                <div class="panel-body">
+                                    <div class="demo-button">
+                                        <button class="btn btn-default btn-rounded">默认</button>
+                                        <button type="button" class="btn btn-primary btn-rounded">基本</button>
+                                        <button type="button" class="btn btn-success btn-rounded">完成</button>
+                                        <button type="button" class="btn btn-info btn-rounded">信息</button>
+                                        <button type="button" class="btn btn-warning btn-rounded">警告</button>
+                                        <button type="button" class="btn btn-danger btn-rounded">注意</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 mg-b-lg">
+                            <div class="panel">
+                                <div class="panel-heading">Button dropdowns and dropups</div>
+                                <div class="panel-body">
+                                    <div class="btn-group show-on-hover">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Dropdown
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li>
+                                                <a href="javascript:;">Action</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">Another action</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">Something else here</a>
+                                            </li>
+                                            <li class="divider"></li>
+                                            <li>
+                                                <a href="javascript:;">Separated link</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="btn-group dropup">
+                                        <button type="button" class="btn btn-white">Dropup</button>
+                                        <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown">
+                                            <span class="caret"></span>
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                        </button>
+                                        <ul class="dropdown-menu pull-right" role="menu">
+                                            <li>
+                                                <a href="javascript:;">Action</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">Another action</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">Something else here</a>
+                                            </li>
+                                            <li class="divider"></li>
+                                            <li>
+                                                <a href="javascript:;">Separated link</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mg-b-lg">
+                                <div class="h5 mg-b-sm">Block Level Buttons</div>
+                                <button type="button" class="btn btn-white btn-lg btn-block">Block level button</button>
+                                <button type="button" class="btn btn-white btn-block">Block level button</button>
+                                <button type="button" class="btn btn-white btn-sm btn-block">Block level button</button>
+                                <button type="button" class="btn btn-white btn-xs btn-block">Block level button</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mg-b-lg">
+                            <div class="panel">
+                                <div class="panel-heading">Justified links</div>
+                                <div class="panel-body">
+                                    <div class="btn-group btn-group-justified">
+                                        <a class="btn btn-primary btn-rounded" role="button">Left</a>
+                                        <a class="btn btn-success" role="button">Middle</a>
+                                        <a class="btn btn-info btn-rounded" role="button">Right</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mg-b-lg">
+                                <div class="h5 mg-b-sm">Icon Buttons</div>
+                                <div class=" demo-button">
+                                    <button type="button" class="btn btn-primary btn-sm">
+                                        <i class="fa fa-check"></i>Submit</button>
+                                    <button type="button" class="btn btn-success btn-sm">
+                                        <i class="fa fa-refresh fa-spin mg-r-xs"></i>Mixing</button>
+                                    <button type="button" class="btn btn-danger btn-sm">
+                                        Warning
+                                        <i class="fa fa-warning mg-r-xs"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-default btn-sm">
+                                        Cloud
+                                        <i class="fa fa-cloud-upload mg-l-xs"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-primary btn-sm">
+                                        <i class="fa fa-facebook mg-r-xs"></i>Facebook</button>
+                                    <button type="button" class="btn btn-info btn-sm">
+                                        <i class="fa fa-twitter mg-r-xs"></i>Twitter</button>
+                                </div>
+                                <div class="clearfix mg-t-md"></div>
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-white btn-sm no-margin">
+                                        <input type="radio" name="options" id="option1">
+                                        <i class="fa fa-thumbs-up mg-r-xs"></i>Like
+                                    </label>
+                                    <label class="btn btn-white btn-sm">
+                                        <input type="radio" name="options" id="option2">
+                                        <i class="fa fa-thumbs-down mg-r-xs"></i>Dislike
+                                    </label>
+                                </div>
+                                <button data-toggle="button" class="btn btn-white btn-sm">
+                                    <i class="fa fa-heart"></i>
+                                </button>
+                                <div class="clearfix mg-t-lg"></div>
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-default btn-sm no-margin">
+                                        <input type="checkbox">
+                                        <i class="fa fa-align-left"></i>
+                                    </label>
+                                    <label class="btn btn-primary btn-sm no-margin">
+                                        <input type="checkbox">
+                                        <i class="fa fa-align-center"></i>
+                                    </label>
+                                    <label class="btn btn-sm btn-default">
+                                        <input type="checkbox">
+                                        <i class="fa fa-align-right"></i>
+                                    </label>
+                                </div>
+                                <div class="mg-t-lg">
+                                    <p>Button Sizes</p>
+                                    <div class="demo-button2">
+                                        <p>
+                                            <a href="javascript:;" class="btn btn-default btn-lg">Large button</a>
+                                            <a href="javascript:;" class="btn btn-primary">Default button</a>
+                                            <a href="javascript:;" class="btn btn-danger btn-sm">Small button</a>
+                                            <a href="javascript:;" class="btn btn-success btn-xs">Extra small button</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- page end-->
+				</div>
+			</div>
+			<!-- content end-->
+
+
+
+				
+
+
+			</div>
+			<!-- layout end -->
+		</div>
+
+<!-- jQuery v1.11.1 -->
+		<script src="./js/jquery.min.js"></script>
+		<!-- bootstarp-3.3.1 -->
+		<!-- echart 3.1.10-->
+		<script src="./js/plugins/echarts.min.js"></script>
+		<!-- echart 3.1.10 end-->
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/scripts.js"></script>
+		<script src="./js/echarts.js"></script>
+
+	</body>
+
+</html>
