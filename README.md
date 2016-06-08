@@ -3,7 +3,7 @@
 基于bootstrap的后台管理系统，用gulp、bower来进行管理。
 
 
-![feng-admin](https://raw.githubusercontent.com/ekongx/FengAdmin/master/images/feng.png)
+![feng-admin](https://cloud.githubusercontent.com/assets/3378002/15895214/ab3e6fd4-2dbc-11e6-907c-d9abfba7a82b.png)
 
 
 ### 必要工具
